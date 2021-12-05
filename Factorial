@@ -1,0 +1,13 @@
+#include"stdio.h"
+int main()
+{
+    int fac,num;printf("Enter the number ");scanf("%d",&num);
+    fac=1;
+    while(num>0)
+    {
+        fac=fac*num;
+        --num;
+    }
+    printf("Factorial is %d",fac);
+    return 0;
+}
