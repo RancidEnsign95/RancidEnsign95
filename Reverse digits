@@ -1,0 +1,11 @@
+#include"stdio.h"
+int main()
+{
+    int no,a,b,c;printf("Enter a number(3 Digited) ");scanf("%d",&no);
+    a=no%10;
+    no=no/10;
+    b=no%10;
+    c=no/10;
+    printf("%d%d%d",a,b,c);
+    return 0;
+}
