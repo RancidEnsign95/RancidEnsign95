@@ -1,0 +1,13 @@
+#include"stdio.h"
+int main()
+{
+    int a,b,pro;printf("Enter the table you want ");scanf("%d",&a);
+    b=1;
+    while(b<=20)
+    {
+        pro=a*b;
+        printf("\n%d X %d = %d",a,b,pro);
+        b++;
+    }
+ return 0;   
+}
