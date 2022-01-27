@@ -1,0 +1,19 @@
+#include"stdio.h"
+int evenodd();
+int main()
+{
+	int a;
+	printf("Enter the limit ");scanf("%d",&a);
+	evenodd(a);
+}
+
+int evenodd(int x,int i)
+{
+	for(i=1;i<=x;i++)
+    {
+        if(i%2==0)
+        printf("\t%d",i);
+        else
+        printf("\n%d",i);
+    }
+}
